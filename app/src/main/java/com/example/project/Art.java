@@ -74,4 +74,9 @@ public class Art {
     }
 
     public String name;
+
+    public String toString() {
+
+        return "[" + this.getName() + ", ";
+    }
 }
