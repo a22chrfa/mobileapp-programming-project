@@ -1,7 +1,6 @@
 package com.example.project;
 
 import android.os.AsyncTask;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
