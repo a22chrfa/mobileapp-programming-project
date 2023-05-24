@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Project</string>
+    <string name="AboutText">Denna app är riktad till konst-inresserade. Här listas konstvärldens främsta verk!</string>
 </resources>
