@@ -28,9 +28,8 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        setTitle("Main");
         new JsonTask(this).execute(JSON_URL);
-        setContentView(R.layout.activity_main);
 
         recyclerView = findViewById(R.id.recyclerViewID);
         artObjects = new ArrayList<Art>();
